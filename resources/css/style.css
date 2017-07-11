@@ -1,0 +1,73 @@
+/*CSS for the header*/
+
+header{
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#menu ul li{
+  list-style-type: none;
+  display: inline;
+}
+#menu ul li a{
+  text-decoration: underline;
+  padding: 10px;
+}
+#logo{
+  color: MediumAquamarine;
+  display: flex;
+}
+.title-logo{
+  padding-left: 10px;
+  align-self: center;
+  font-weight: bold;
+}
+
+/*CSS for the container*/
+#container{
+  border: 2px solid red;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.column-large{
+    width: 630px;
+    border: 2px solid pink;
+    background: pink;
+  }
+.column-medium{
+    width: 300px;
+    border: 2px solid green;
+    background: green;
+}
+.column-small{
+    width: 240px;
+    border: 2px solid purple;
+    background: purple;
+}
+.text{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.sub-menu{
+
+}
+/*.images{
+    /*display: flex;
+    flex-shrink: 0;*/
+  font-family: Georgia;
+  font-weight: bold;*/
+  font-size: 30px;
+  color: white;
+}
