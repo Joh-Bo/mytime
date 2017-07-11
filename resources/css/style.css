@@ -1,73 +1,199 @@
 /*CSS for the header*/
-
 header{
-  border-bottom: 1px solid black;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
+border-bottom: 1px solid black;
+font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
 #menu ul li{
-  list-style-type: none;
-  display: inline;
+list-style-type: none;
+display: inline;
 }
 #menu ul li a{
-  text-decoration: underline;
-  padding: 10px;
+text-decoration: underline;
+padding: 10px;
 }
 #logo{
-  color: MediumAquamarine;
-  display: flex;
+color: MediumAquamarine;
+display: flex;
 }
 .title-logo{
-  padding-left: 10px;
-  align-self: center;
-  font-weight: bold;
+padding-left: 10px;
+align-self: center;
+font-weight: bold;
 }
 
 /*CSS for the container*/
 #container{
-  border: 2px solid red;
-  width: 100%;
-  height: auto;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+/*_border: 2px solid red;*/
+width: 100%;
+height: auto;
+margin: auto;
+font-family: Verdana;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
 
+/*CSS 1ère colonne*/
 .column-large{
-    width: 630px;
-    border: 2px solid pink;
-    background: pink;
-  }
-.column-medium{
-    width: 300px;
-    border: 2px solid green;
-    background: green;
+font-family: Georgia;
+font-size: 17px;
+color: black;
+width: 630px;
+/*border: 2px solid pink;*/
+display: flex;
+flex-direction: column;
 }
-.column-small{
-    width: 240px;
-    border: 2px solid purple;
-    background: purple;
+
+.text-large-1,
+.text-large-2,
+.text-large-3{
+/*font-family: Georgia;
+font-size: 17px;
+color: black;*/
+margin-bottom: 20px;
+display: flex;
+flex-direction: row;
+}
+.title-large{
+font-size: 30px;
+font-weight: bold;
+margin: 20px 0;
+}
+.images-large-1,
+.images-large-2,
+.images-large-3,
+.images-medium {
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
+margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.images-large-1 {
+height: 330px;
+width: 629px;
+background-image: url(../images/img-story-main.png);
+background-repeat: no-repeat;
+}
+.images-large-2{
+width: 299px;
+height: 300px;
+background-image: url(../images/img-story-2.png);
+background-repeat: no-repeat;
+}
+.images-large-3{
+width: 299px;
+height: 300px;
+background-image: url(../images/img-story-3.png);
+background-repeat: no-repeat;
+}
+
+
+/*CSS deuxième colonne*/
+.column-medium{
+width: 300px;
+display: flex;
+flex-direction: column;
+/*border: 2px solid green;*/
 }
 .text{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+font-family: Georgia;
+font-size: 17px;
+color: black;
+margin-bottom: 20px;
+}
+.images-medium{
+width: 299px;
+height: 300px;
+margin-bottom: 20px;
+background-image: url(../images/img-story-1.png);
+background-repeat: no-repeat;
+}
+
+
+/*CSS troisième colonne*/
+.column-small{
+width: 240px;
+/*border: 2px solid purple;*/
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .sub-menu{
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+width: 100%;
+height: auto;
+margin-top: 20px;
+}
+.sub-menu div{
+border-bottom: 1px solid black;
+padding: 15px 20px;
+list-style-type: none;
+}
+.inner_text{
+font-family: Verdana;
+font-size: 16px;
+font-weight: bold;
+}
+
+/*CSS for Footer*/
+#footer{
+/*border: 2px solid green;*/
+width: 100%;
+height: 300px;
+font-family: Verdana;
+background-color: MediumAquamarine;
+margin: auto;
+font-size: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.footer-1{
+width: 500px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/*border: 2px solid pink;*/
+}
+
+.footer_title{
+width: 150px;
+/*border: 2px solid black;*/
+font-family: Georgia;
+font-size: 16px;
+font-weight: bold;
+color: white;
+}
+.footer_menu{
+/*border: 2px solid purple;*/
+margin-left: -40px;
+}
+.footer_menu li {
+list-style-type: none;
+display: inline-block;
 
 }
-/*.images{
-    /*display: flex;
-    flex-shrink: 0;*/
-  font-family: Georgia;
-  font-weight: bold;*/
-  font-size: 30px;
-  color: white;
+.footer_menu li a{
+text-decoration: underline;
+padding: 10px;
+}
+.legal{
+margin-top: 5px;
+/*border: 2px solid yellow;*/
 }
