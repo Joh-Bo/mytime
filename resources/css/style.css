@@ -1,9 +1,14 @@
+body{
+width: 100%;
+height: auto;
+}
 /*CSS for the header*/
 header{
 border-bottom: 1px solid black;
 font-family: Verdana;
 font-size: 14px;
 font-weight: bold;
+padding-bottom: 10px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -18,6 +23,7 @@ text-decoration: underline;
 padding: 10px;
 }
 #logo{
+padding-left: 10px;
 color: MediumAquamarine;
 display: flex;
 }
@@ -45,6 +51,9 @@ font-family: Georgia;
 font-size: 17px;
 color: black;
 width: 630px;
+margin: 15px;
+margin-top: -10px;
+margin: bottom: 50px;
 /*border: 2px solid pink;*/
 display: flex;
 flex-direction: column;
@@ -102,6 +111,8 @@ background-repeat: no-repeat;
 /*CSS deuxième colonne*/
 .column-medium{
 width: 300px;
+margin-right: 15px;
+margin-top: 20px;
 display: flex;
 flex-direction: column;
 /*border: 2px solid green;*/
@@ -124,6 +135,7 @@ background-repeat: no-repeat;
 /*CSS troisième colonne*/
 .column-small{
 width: 240px;
+margin-right: 15px;
 /*border: 2px solid purple;*/
 display: flex;
 flex-direction: column;
